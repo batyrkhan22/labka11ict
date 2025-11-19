@@ -10,6 +10,17 @@
   top: 0;
   z-index: 100;
 }
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 80px; /* Навбар биіктігі */
+}
 
 
 .nav-list { list-style: none; display: flex; gap: 12px; }
@@ -73,4 +84,5 @@ th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
     height: auto;   
     border-radius: 8px; 
 }
+
 
