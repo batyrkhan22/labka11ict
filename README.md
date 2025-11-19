@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lab11</title>
+  <link rel="icon" href="brr.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="lab11.css">
+</head>
+<body>
+  <header id="header">
+    <h1>b22rskin Batyrkhan</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="container">
+      <div class="profile-photo">
+        <img src="brr.jpg" alt="Profile photo"> 
+      </div>
+      <div class="intro">
+        <h2>My Ideal Life at 60</h2>
+        <p><strong>Goal:</strong> To become a leading specialist who creates impactful and innovative projects for the world.</p>
+        <p><em>Short biography:</em> A professional with knowledge, experience, and inspiration.</p>
+        <hr> 
+        <p>Email: <a href="mailto:trganbekbatyrhan@gmail.com">trganbekbatyrhan@gmail.com</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h3>Biography & Skills</h3> 
+      <ul>
+        <li>Education: University — IITU</li>
+        <li>Skills: programming, management, research, gaming</li>
+      </ul>
+
+      <details>
+        <summary>Read more</summary>
+        <p>This section contains details about specific projects and achievements.</p>
+      </details>
+
+      <p>Copyright: &copy; 2065, All rights reserved.</p> 
+    </section>
+
+    <section id="projects" class="container">
+      <h3>Projects</h3>
+
+      <figure> 
+        <img src="it.jpg" class="project-img" alt="Project photo">
+        <figcaption>Project 1 — Short description of the project.</figcaption>
+      </figure>
+
+      <article class="project-card"> 
+        <h4>Project A</h4>
+        <p>Description of the project's goals and results.</p>
+
+        <progress value="70" max="100"></progress> 
+        <p>Project completion: 70%</p>
+      </article>
+
+      <article class="project-card">
+        <h4>Project B</h4>
+        <p>Another project description.</p>
+        <meter value="0.6" min="0" max="1"></meter> 
+      </article>
+
+    </section>
+
+    <section id="experience" class="container">
+      <h3>Experience</h3>
+
+      <table> 
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Organization</th>
+            <th>Position</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2025–2035</td>
+            <td>Google</td>
+            <td>Senior Software Engineer / Team Lead</td>
+          </tr>
+          <tr>
+            <td>2036–2045</td>
+            <td>Tesla</td>
+            <td>AI Systems Architect</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="media" class="container">
+      <h3>Media</h3>
+      <audio controls>
+        <source src="lab11.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio> 
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/PcNSMgFyBCg?si=xdyjVRaUjqMQ0vkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="contact" class="container">
+      <h3>Contact</h3>
+
+      <form action="#" method="post"> 
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Created: 2025</p>
+    <nav>
+      <ul class="footer-nav">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
